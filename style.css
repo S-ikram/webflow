@@ -1,0 +1,48 @@
+
+
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: gold;
+}
+.dropdown-menu a{
+    color: black;
+}
+.nav-menu{
+    gap: 8px;
+}
+.nav-menu span{
+    width: 25px;
+    height: 1px!important;
+    scale: 1.2;
+    border: 1px solid white;
+}
+.nav-menu span:nth-child(2){
+    transition: .1s linear;
+    width: 20px;
+}
+.nav-menu:hover span:nth-child(2){
+    width: 25px;
+    transition: .1s linear;
+}
+.navbar-toggler {
+    border: 2px solid white !important;
+}
+.navbar-toggler-icon {
+    background-color: white !important;
+}
+
+
+
+/* SECOND SECTION */
+.second-left {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgb(0, 0, 0) 74%, rgba(25, 25, 25, 0.959) 96%);
+}
+.second-right {
+    background-image: url(people-taking-part-business-event_23-2149346610.jpg);
+    background-size: cover;
+    height: 600px;
+    
+}
